@@ -1,10 +1,11 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     margin: 0;
 }
 
+/* header */
 .header{
     display: flex;
     background: #1F2937;
@@ -25,6 +26,47 @@ ul{
     gap: 25px;
 } 
 
+/* banner */
+.banner{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+.banner.content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    padding: 16px;
+    align-items: flex-start;
+}
+
+.banner.info{
+    display: flex;
+    font-size: 38px;
+    color: #F9FAF8;
+}
+
+.banner.subtext{
+    display: flex;
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.banner button{
+    display: flex;
+    width: 80px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* general */
 a{
     text-decoration-line: none;
     color: #E5E7EB;
