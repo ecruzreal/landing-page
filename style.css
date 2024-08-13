@@ -100,6 +100,30 @@ ul{
     border-radius: 15px;
 }
 
+/* quote */
+.quote{
+    background: #E5E7EB;
+}
+
+.quote-content{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.quote-text{
+    font-size: 25px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: left;
+}
+
+.signature{
+    font-weight: 550; 
+    text-align: end;
+}
 
 /* general */
 a{
