@@ -105,7 +105,7 @@ ul{
 .quote{
     background: #E5E7EB;
     margin-top: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 .quote-content{
@@ -164,6 +164,23 @@ ul{
     border: 2px solid #F9FAF8;
     color: #F9FAF8;
     border-radius: 8px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937; 
+    padding: 25px;
+    margin-top: 64px; 
+
+}
+
+.footer-text{
+    display: flex;
+    color: #F9FAF8;
+    font-size: smaller;
 }
 
 /* general */
