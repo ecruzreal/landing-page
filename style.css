@@ -15,6 +15,7 @@ body{
 }
 
 .logo{
+    font-weight: bolder;
     font-size: 24px;
     color:#F9FAF8;
 }
@@ -103,6 +104,8 @@ ul{
 /* quote */
 .quote{
     background: #E5E7EB;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .quote-content{
@@ -123,6 +126,44 @@ ul{
 .signature{
     font-weight: 550; 
     text-align: end;
+}
+
+/* modal */
+.modal{
+    background: #3882F6;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 32px; 
+}
+
+.modal-header{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #F9FAF8
+}
+
+.modal-text{
+    color: #E5E7EB;
+}
+
+.modal button{
+    display: flex;
+    margin-right: 32px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 8px;
 }
 
 /* general */
