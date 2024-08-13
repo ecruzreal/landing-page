@@ -6,13 +6,12 @@ body{
 }
 
 /* header */
-.header{
+.main-header{
     display: flex;
     background: #1F2937;
     align-items: center;
     justify-content: space-between;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 16px; 
 }
 
 .logo{
@@ -24,6 +23,8 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 25px;
+    margin: 0;
+    padding: 0;
 } 
 
 /* banner */
@@ -33,36 +34,70 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 16px;
+    padding: 16px; 
     
 }
 
-.banner.content{
+.banner img{
+    border-radius: 15px;
+}
+
+.banner-content{
     display: flex;
     flex-direction: column;
     gap: 8px; 
     padding: 16px;
-    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-.banner.info{
-    display: flex;
+.banner-info{
     font-size: 38px;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
-.banner.subtext{
-    display: flex;
+.banner-subtext{
     font-size: 15px;
     color: #E5E7EB;
 }
 
 .banner button{
-    display: flex;
     width: 80px;
     background-color: #3882F6;
     color: #E5E7EB;
     border: none;
     border-radius: 5px;
+}
+
+/* body */
+.information{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+}
+
+.information-header{
+    align-items: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-pic{
+    padding: 8px;
+    max-width: 200px;
+}
+
+.info-pic img{
+    border: 5px solid #1F2937;
+    border-radius: 15px;
 }
 
 
